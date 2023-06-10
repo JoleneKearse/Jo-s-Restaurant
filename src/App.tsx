@@ -2,13 +2,15 @@
 // import viteLogo from "/vite.svg";
 // import "./App.css";
 import LandingPage from "./components/LandingPage";
+import RestaurantIntro from "./components/RestaurantIntro";
 
 function App() {
   return (
     <>
-    <LandingPage />
+      <LandingPage />
+      <RestaurantIntro />
     </>
-  )
+  );
 }
 
 export default App;
